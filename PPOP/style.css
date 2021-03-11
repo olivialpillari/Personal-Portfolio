@@ -1,8 +1,10 @@
 .navbar-brand {
   color:ivory;
-  font-weight: 300;
   font-size: 65px;
   text-transform: uppercase;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  letter-spacing: 1px;
 }
 
 .nav-item a {
@@ -10,15 +12,43 @@
 }
 
 #hero {
-  background-image: url(./images/image0.jpeg);
+  background-image: url(./images/img_0257.jpg);
   background-size: cover;
   background-position: center bottom;
 }
 
 #hero h2 {
-  padding-top: 500px;
+  padding-top: 600px;
+  color:ivory;
 }
 
 #navbardefault .nav-link div:hover {
   border-bottom: 2px solid #fff;
 }
+
+.section-title {
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+.section-title h2 {
+  color: rgb(50 53 67);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: center;
+}
+
+#about .container {
+  box-shadow: 0 5px 25px 0 rgb(214 215 216 / 60%);
+}
+
+.about .about-content {
+  padding: 40px;
+}
+
+.section-title p {
+  padding-left: 20px;
+}
+
+
