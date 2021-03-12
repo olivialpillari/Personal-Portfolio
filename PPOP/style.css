@@ -1,3 +1,4 @@
+
 .navbar-brand {
   color:ivory;
   font-size: 65px;
@@ -11,6 +12,11 @@
   color:ivory;
 }
 
+nav ul li a:hover {
+  border-bottom:  3px solid white;
+  transition: border-bottom .3s;
+}
+
 #hero {
   background-image: url(./images/img_0257.jpg);
   background-size: cover;
@@ -22,19 +28,17 @@
   color:ivory;
 }
 
-#navbardefault .nav-link div:hover {
-  border-bottom: 2px solid #fff;
-}
+
 
 .section-title {
   padding-top: 30px;
   font-size: 14px;
 }
 
+
 .section-title h2 {
   color: rgb(50 53 67);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
   text-shadow: -1px -1px 1 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-align: center;
 }
@@ -51,4 +55,46 @@
   padding-left: 20px;
 }
 
+.social {
+  word-spacing: 20px;
+  color: yellow;
+}
+
+  button {
+  background:rgb(0, 119, 255);
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+#contact .social-links a {
+  font-size: 25px;
+  display: inline-block;
+  background: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+  border: 1px solid #a1999d;
+}
+
+#contact .info i {
+  font-size: 30px;
+  float: left;
+  line-height: 1; }
+
+#contact .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+}
+
+.img-responsive {
+  width: 100%;
+}
 
